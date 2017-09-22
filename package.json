@@ -1,0 +1,29 @@
+{
+  "name": "react-native-attention-grabber",
+  "version": "0.0.2",
+  "description":
+    "A wrapper component that you can use to draw your users' attention.",
+  "author": {
+    "name": "Jan Soendermann",
+    "email": "jan.soendermann+npm@gmail.com"
+  },
+  "homepage": "https://github.com/jsoendermann/react-native-attention-grabber",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jsoendermann/react-native-attention-grabber.git"
+  },
+  "main": "index.js",
+  "typings": "index.d.ts",
+  "license": "Apache-2.0",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "prepare": "npm run build"
+  },
+  "devDependencies": {
+    "@types/react": "^16.0.2",
+    "@types/react-native": "^0.48.6",
+    "prettier": "^1.7.0",
+    "typescript": "^2.5.2"
+  }
+}
